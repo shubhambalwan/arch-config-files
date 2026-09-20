@@ -1,0 +1,17 @@
+command = fish
+
+font-family = JetBrains Monos
+font-family = Noto Sans CJK JP
+
+# Block cursor
+cursor-style = block
+cursor-style-blink = false
+cursor-opacity = 1.0
+
+# IMPORTANT: stop Ghostty shell integration from changing it to a bar
+shell-integration-features = no-cursor
+
+# Your shaders
+custom-shader = ~/.config/ghostty/shaders/shader.glsl
+#custom-shader = ~/.config/ghostty/shaders/shader1.glsl
+custom-shader = ~/.config/ghostty/shaders/shader2.glsl
