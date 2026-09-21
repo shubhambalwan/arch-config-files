@@ -278,7 +278,7 @@ include "dms/windowrules.kdl"
 window-rule {
     match is-active=true
 
-    opacity 1.0
+    opacity 0.96
 
     background-effect {
         blur true
